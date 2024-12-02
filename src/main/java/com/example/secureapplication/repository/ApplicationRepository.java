@@ -10,16 +10,23 @@ public class ApplicationRepository {
     public ApplicationRepository() {
     }
 
-    public String hi(){
-        return "Hi guest. Welcome to the website!";
+    public String hi() {
+        return "Hi guest.";
     }
-    public String read(){
+
+    public String welcome() {
+        return "Welcome to the website!";
+    }
+
+    public String read() {
         return "Access to reading messages";
     }
-    public String send(){
+
+    public String send() {
         return "Access to send message";
     }
-    public String delete(){
+
+    public String delete() {
         return "Access to delete message";
     }
 }

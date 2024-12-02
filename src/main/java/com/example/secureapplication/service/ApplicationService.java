@@ -13,6 +13,9 @@ public class ApplicationService {
     public String hi(){
         return applicationRepository.hi();
     }
+    public String welcome() {
+        return applicationRepository.welcome();
+    }
     public String send(){
         return applicationRepository.send();
     }
